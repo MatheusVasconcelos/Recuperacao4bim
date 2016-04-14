@@ -16,7 +16,7 @@ import javax.net.ssl.HttpsURLConnection;
  */
 public class HttpService {
 
-    private static final String URL_GET = "http://ladoss.com.br:8773/Convite_SERVICE/convidado/pesquisar/nome";
+    private static final String URL_GET = "http://ladoss.com.br:8773/Convite_SERVICE/convidado/pesquisar/nome/Jose";
     private static final String URL_POST = "http://ladoss.com.br:8773/Convite_SERVICE/convidado/pesquisar/qrcode";
 
     public static Response sendGetRequest(String Json)
